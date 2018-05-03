@@ -57,7 +57,7 @@ let sen1 = "移动互联网";
 synonyms.seg(sen1, true, true)
     .then(function(words){
         // do your magic
-        });
+    });
 ```
 stopwords(Boolean)是否保留停用词，punct(Boolean)是否保留标点符号。
 
@@ -75,7 +75,7 @@ stopwords(Boolean)是否保留停用词，punct(Boolean)是否保留标点符号
 synonyms.vector("股市")
     .then(function(v){
         // do your magic
-        })
+    })
 ```
 
 * 返回值 JSONArray
@@ -97,7 +97,7 @@ synonyms.display("飞机");
 synonyms.nearby("股市")
     .then(function(results){
             // do your magic
-        });
+    });
 ```
 
 * 返回值 JSONArray
